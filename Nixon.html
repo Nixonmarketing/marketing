@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nixon Fonseca - Mastermind of Marketing</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #4a4a6a);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 50px 20px;
+            background: radial-gradient(circle, #444464, #1e1e2f);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #ffcb42;
+            text-transform: uppercase;
+            animation: glow 2s infinite alternate;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ffcb42, 0 0 20px #ffcb42;
+            }
+            to {
+                text-shadow: 0 0 20px #ffcb42, 0 0 30px #ffcb42;
+            }
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1em;
+            color: #ffcb42;
+            text-decoration: none;
+            border: 2px solid #ffcb42;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background: #ffcb42;
+            color: #1e1e2f;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h2 {
+            margin: 0;
+            color: #ffcb42;
+        }
+
+        .card p {
+            color: #ffffff;
+        }
+
+        footer {
+            background: #1e1e2f;
+            padding: 10px 20px;
+            text-align: center;
+            color: #ffcb42;
+            font-size: 0.9em;
+        }
+
+        .floating-image {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            animation: float 4s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet Nixon Fonseca</h1>
+        <p>Your Gateway to Marketing Excellence</p>
+        <div class="buttons">
+            <a href="#about" class="button">About Me</a>
+            <a href="#skills" class="button">Skills</a>
+            <a href="#contact" class="button">Contact</a>
+        </div>
+    </header>
+
+    <main class="content">
+        <section id="about" class="card">
+            <h2>About Nixon</h2>
+            <p>Nixon Fonseca is a visionary marketing professional known for creating impactful strategies that drive business growth. With a passion for innovation and a track record of success, Nixon excels in crafting campaigns that resonate with audiences worldwide.</p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>Digital Marketing</li>
+                <li>Brand Strategy</li>
+                <li>Data Analytics</li>
+                <li>Social Media Management</li>
+                <li>SEO & SEM</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:nixon.fonseca@example.com">nixon.fonseca@example.com</a></p>
+            <p>Phone: +57 312 5489278</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Nixon Fonseca. All rights reserved.
+    </footer>
+
+    <img src="https://via.placeholder.com/100" alt="Marketing Icon" class="floating-image">
+</body>
+</html>
+
+
